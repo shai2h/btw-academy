@@ -1,0 +1,144 @@
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #010F19;
+}
+
+.header {
+    display:flex;
+    position: absolute;
+    
+}
+
+.items {
+    color: #FFF;
+    font-size: 18px;
+    display: flex;
+    margin-top: 57px;
+    margin-left: 80px;
+}
+
+.items ul {
+    margin: 0 10px;
+}
+
+
+
+.logo {
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFF;
+    margin-top: 44px;
+    margin-left: 100px;
+    
+}
+
+
+.main-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.info1 h1 {
+    color:#FFF;
+    font-size: 36px;
+    line-height: 70.72px;
+}
+
+.information {
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.information h6 {
+    font-size: 18px;
+    color: #FFF;
+    opacity: 70%;
+    font-weight: 300;
+    font-style: normal;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+
+.info2 {
+    width: 50%;
+    height: 100vh;
+    background: url(../img/bg.png) rgba(0,0,0,.1) no-repeat ;
+    background-size: 100% 100vh;
+    
+}
+
+.academy-btn {
+    width: 203px;
+    height: 63px;
+    border-radius: 31.5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #010F19;
+    border: 1px solid #FFF;
+    text-shadow: 2px 2px 2px #000;
+    transition: 1s;
+}
+
+.academy-btn:hover {
+    background-color: #FA9F73;
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+
+
+
+div#carousel { 
+    perspective: 1200px; 
+    background: #100000; 
+    padding-top: 10%; 
+    font-size:0; 
+    margin-bottom: 3rem; 
+    overflow: hidden; 
+  }
+  figure#spinner { 
+    transform-style: preserve-3d; 
+    height: 300px; 
+    transform-origin: 50% 50% -500px; 
+    transition: 1s; 
+  } 
+  figure#spinner img { 
+    width: 40%; max-width: 425px; 
+    position: absolute; left: 30%;
+    transform-origin: 50% 50% -500px;
+    outline:1px solid transparent; 
+  }
+  figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+  }
+  figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+  figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+  figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+  figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+  figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+  figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+  figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+  div#carousel ~ span { 
+    color: #fff; 
+    margin: 5%; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    transition: 0.6s color; 
+    position: relative; 
+    margin-top: -6rem; 
+    border-bottom: none; 
+    line-height: 0; }
+  div#carousel ~ span:hover { color: #888; cursor: pointer; }
