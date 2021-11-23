@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Bahnschrift'; 
+	src: local('Bahnschrift'),
+		url(../main_page/fonts/Bahnschrift.ttf); 
+}
+
 body {
     font-family: 'Russo One', sans-serif;
 }
@@ -158,4 +164,142 @@ body {
 
 }
 
-/* SLIDER */
+/* academy */
+
+.academy {
+    height: 747px;
+    background-color: #010F19;
+    display: flex;
+    justify-content: center;
+}
+
+.academy-block1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.academy-block1 h1 {
+    color:#FFF;
+    font-size: 36px;
+    line-height: 70.72px;
+}
+
+.academy-block2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy-block2-bg {
+    width: 549px;
+    height: 550px; 
+    background: url(../main_page/img/academy-bg.jpg) no-repeat;  
+    background-size: 549px 550px;
+    
+}
+
+
+.academy-info {
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.academy-form-btn {
+    width: 203px;
+    height: 63px;
+    border-radius: 31.5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #010F19;
+    border: 1px solid #FFF;
+    text-shadow: 2px 2px 2px #000;
+    transition: 1s;
+}
+
+.academy-form-btn:hover {
+    background-color: #FA9F73;
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+.academy-info h6 {
+    font-size: 18px;
+    color: #FFF;
+    opacity: 70%;
+    font-weight: 300;
+    font-style: normal;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+
+/* О СОЗДАТЕЛЯХ АКАДЕМИИ */
+
+.btw-team-wrap {
+    height: 100vh;
+    width: 100%;
+    background-color: #021523;
+    
+}
+
+.btw-team-wrap h1 {
+    font-size: 36px;
+    color: #FFF;
+    line-height: 70.72px;
+    margin-left:100px;
+    margin-bottom: 30px;
+}
+
+
+.btw-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-img1 {
+    background-color: aqua;
+    width: 315px;
+    height: 366px;
+    background: url(../main_page/img/ilfat.png);
+    box-shadow: 0 0 5px 2px black;
+}
+
+.team-img2 {
+    background-color: aqua;
+    width: 315px;
+    height: 366px;
+    box-shadow: 0 0 5px 2px black;
+    background: url(../main_page/img/albert.png);
+    
+}
+
+.team-img3 {
+    background-color: aqua;
+    width: 315px;
+    height: 366px;
+    box-shadow: 0 0 5px 2px black;
+    background: url(../main_page/img/daniil.png);
+}
+
+.team-text {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.team-text p {
+    font-size: 18px;
+    opacity: 70%;
+    color: #FFF;
+    font-weight: 350;
+    font-family: Bahnschrift;
+    text-align: center;
+    line-height: 25px;
+}
