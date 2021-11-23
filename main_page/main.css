@@ -74,7 +74,7 @@ body {
 .info2 {
     width: 50%;
     height: 100vh;
-    background: url(../img/bg.png) rgba(0,0,0,.1) no-repeat ;
+    background: url(../main_page/img/bg.png) rgba(0,0,0,.1) no-repeat ;
     background-size: 100% 100vh;
     
 }
@@ -99,46 +99,63 @@ body {
 }
 
 
+.about-us {
+    width: 100%;
+    height: 630px;
+    background-color: #021523;
+    display: flex;
+    justify-content: center;
+}
 
+.about-us-block1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
 
-div#carousel { 
-    perspective: 1200px; 
-    background: #100000; 
-    padding-top: 10%; 
-    font-size:0; 
-    margin-bottom: 3rem; 
-    overflow: hidden; 
-  }
-  figure#spinner { 
-    transform-style: preserve-3d; 
-    height: 300px; 
-    transform-origin: 50% 50% -500px; 
-    transition: 1s; 
-  } 
-  figure#spinner img { 
-    width: 40%; max-width: 425px; 
-    position: absolute; left: 30%;
-    transform-origin: 50% 50% -500px;
-    outline:1px solid transparent; 
-  }
-  figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
-  }
-  figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-  figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-  figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-  figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-  figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-  figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-  figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
-  div#carousel ~ span { 
-    color: #fff; 
-    margin: 5%; 
-    display: inline-block; 
-    text-decoration: none; 
-    font-size: 2rem; 
-    transition: 0.6s color; 
-    position: relative; 
-    margin-top: -6rem; 
-    border-bottom: none; 
-    line-height: 0; }
-  div#carousel ~ span:hover { color: #888; cursor: pointer; }
+.about-us-block2 {
+    width: 50%;
+    
+}
+
+.about-us-info h1 {
+    font-size: 36px;
+    color: #FFF;
+    line-height: 70.72px;
+}
+
+.about-us-info {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.about-us-info p {
+    font-size: 18px;
+    color: #FFF;
+    opacity: 70%;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-us-btn {
+    width: 203px;
+    height: 63px;
+    border-radius: 31.5px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #010F19;
+    border: 1px solid #FFF;
+    text-shadow: 2px 2px 2px #000;
+    transition: 1s;
+}
+
+.about-us-btn:hover {
+    background-color: #FA9F73;
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+/* SLIDER */
