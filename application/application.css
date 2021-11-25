@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: local("Bahnschrift"), url(../application/fonts/Bahnschrift.ttf);
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+  font-family: Russo One;
+}
+
+.application-top {
+  width: 100%;
+  height: 100vh;
+  background: url(../application/img/1.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.application-top p {
+  font-size: 100px;
+  line-height: 110.5%;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.application-top h2 {
+  font-size: 144px;
+  line-height: 110.5%;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sign-up {
+  width: 100%;
+  height: 100vh;
+  background: #010f19;
+}
+
+.sign-up p {
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-left: 225px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.sign-up-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-up-form li {
+  font-family: Bahnschrift;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #f2f2f2;
+  opacity: 0.7;
+  padding-top: 50px;
+  border-bottom: 2px solid #ffffff;
+  width: 400px;
+}
+
+.sign-up-form input {
+  background: transparent;
+  color: #ffffff;
+}
+
+.sign-up-form select {
+  background: transparent;
+}
+
+.sign-up-form button {
+  width: 142px;
+  height: 40px;
+  background: #fa9f73;
+  border-radius: 22.5px;
+  position: absolute;
+  font-family: Bahnschrift;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f2f2f2;
+  margin-top: 46px;
+}
