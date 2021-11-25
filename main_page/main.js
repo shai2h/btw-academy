@@ -225,3 +225,10 @@ function goToIndexSlide(index) {
 }
 
 slideInitial();
+
+
+// SLICK SLIDER START
+
+	
+$('.single-slide').slick();
+
