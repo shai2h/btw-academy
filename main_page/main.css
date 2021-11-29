@@ -270,7 +270,7 @@ body {
     background-color: aqua;
     width: 315px;
     height: 366px;
-    background: url();
+    background: url(../main_page/img/ilfat.png);
     box-shadow: 0 0 5px 2px black;
 }
 
@@ -279,7 +279,7 @@ body {
     width: 315px;
     height: 366px;
     box-shadow: 0 0 5px 2px black;
-    background: url();
+    background: url(../main_page/img/den4uk.png);
     
 }
 
@@ -288,7 +288,7 @@ body {
     width: 315px;
     height: 366px;
     box-shadow: 0 0 5px 2px black;
-    background: url();
+    background: url(../main_page/img/alb.png);
 }
 
 .team-text {
