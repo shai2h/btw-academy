@@ -1,0 +1,23 @@
+.body {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    
+}
+
+.header-list {
+    display: flex;
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Russo One', sans-serif;
+}
+
+.main {
+    background-image: url(./academy_img/bg.png);
+    width: 100%;
+    height: 100vh;
+}
